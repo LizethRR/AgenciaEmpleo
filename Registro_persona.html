@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registrar Persona</title>
+</head>
+<body>
+    <header >
+        <h2>AGENCIA DE EMPLEO</h2>
+    </header>
+    <div >
+        <h1>Registrar Persona</h1>
+        <div>
+            <div>
+                <label for="Tipo_ID">Tipo de Identificación</label>
+                <select name="Tipo_ID" id="Tipo_ID">
+                    <option disabled selected="">Selecciona una opción</option>
+                    <option value="Cedula de ciudadania">Cedula de ciudadania</option>
+                    <option value="Cedula extranjera">Cedula extranjera</option>
+                    <option value="Pasaporte">Pasaporte</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+            <div>
+                <label for="No_ID">Número de Identificación</label>
+                <input type="text" id="No_ID">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="Name">Nombre Completo</label>
+                <input type="text" id="Name">
+            </div>
+            <div>
+                <label for="email">Correo electrónico</label>
+                <input type="text" id="email">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="Dire">Dirección</label>
+                <input type="text" id="Dire">
+            </div>
+            <div>
+                <label for="Cel">Teléfono</label>
+                <input type="text" id="Cel">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="pais">País</label>
+                <select name="pais" id="pais">
+                    <option disabled selected="">Selecciona una opción</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                </select>
+            </div>
+            <div>
+                <label for="ciudad">Teléfono</label>
+                <select name="ciudad" id="ciudad">
+                    <option disabled selected="">Selecciona una opción</option>
+                    <option value="Bogotá">Bogotá</option>
+                    <option value="Calí">Calí</option>
+                    <option value="Medellin">Medellin</option>
+                    <option value="Barranquilla">Barranquilla</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="hv">Hoja de vida</label>
+                <form action="/action_page.php" method="POST" enctype="multipart/form-data">
+                    <label for="myfile" class="btn-seleccionar-archivo">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </label>
+                    <input type="file" id="myfile" accept="pdf">
+                    <input type="submit" value="Cargar archivo">
+                </form>
+            </div>
+            <div>
+                <label for="video">Video</label>
+                <form action="/action_page.php" method="POST" enctype="multipart/form-data">
+                    <label for="myvideo" class="btn-seleccionar-archivo">
+                        <i class="fa-solid fa-file-video"></i>
+                    </label>
+                    <input type="file" id="myvideo" accept="video">
+                    <input type="submit" value="Cargar archivo">
+                </form>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="Clave">Contraseña</label>
+                <input type="text" id="Clave">
+            </div>
+            <div>
+                <label for="Clave">Confirmar Contraseña</label>
+                <input type="text" id="Clave">
+            </div>
+        </div>
+        <div>
+            <div>
+                <a href="index.html">Cancelar</a>
+            </div>
+            <div >
+                <input type="submit" value="Crear Cuenta" id="CrearCuentaPersona">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </footer>
+</body>
+</html>

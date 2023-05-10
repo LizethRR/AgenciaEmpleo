@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:300, 400");
+.inter-normal-white-24px {
+    color: white;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-black-24px {
+    color: black;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-white-30px {
+    color: white;
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-white-36px {
+    color: white;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.inter-normal-white-36px-2 {
+    color: white;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.inter-normal-white-40px {
+    color: white;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.border-1px-black {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.border-1px-black {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.border-7px-wild-blue-yonder {
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgba(158, 174, 216, 1);
+}
+
+.inter-bold-white-32px {
+    color: white;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.desktop-2 {
+    align-items: center;
+    background-color: white;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    width: 1440px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.titulo {
+    align-items: flex-start;
+    background-color: gray;
+    display: flex;
+    height: 50px;
+    min-width: 1440px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 600px;
+}
+
+.subtitulo {
+    color: black;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+    /* line-height: normal; */
+    /* margin-left: 4px; */
+    margin-top: 88px;
+    /* min-height: 77px; */
+    /* min-width: 392px; */
+}
+
+.Persona {
+    justify-content: center;
+    font-size: 30px;
+}
+
+.Empresa {
+    justify-content: center;
+    font-size: 30px;
+}
+
+.Info {
+    /* align-self: flex-end; */
+    font-size: 22px;
+    height: 126px;
+    letter-spacing: 0;
+    line-height: normal;
+    /* margin-top: 25px; */
+    padding: 15px;
+    text-align: center;
+    width: 482px;
+}
+
+.Boton1 {
+    cursor: pointer;
+    height: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    height: 45px;
+    min-width: 102px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-color: white;
+}
+
+.seccion {
+    align-items: center;
+    background-color: gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 366рх;
+    padding: 28px 40px;
+    width: 570px;
+}
+
+.Boton2 {
+    cursor: pointer;
+    height: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    background-color: gray;
+    border-radius: 15px;
+    height: 45px;
+    min-width: 102px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: gray;
+}
+
+.agencia-de-empleo-bogot {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 39px;
+}
+
+.overlap-group4 {
+    align-items: flex-start;
+    background-color: var gray;
+    border-radius: 15px;
+    display: flex;
+    height: 70px;
+    justify-content: flex-end;
+    margin-left: 4px;
+    margin-top: 61px;
+    min-width: 232px;
+    padding-left: 20px;
+}
+
+.valign-text-middle {
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: var gray;
+}
+
+.iconsaxlinear-container {
+    align-items: center;
+    background-color: gray;
+    display: flex;
+    gap: 30px;
+    height: 100px;
+    min-width: 1440px;
+    padding-left: 1200px;
+}
+
+i {
+    font-size: 40px;
+}
+
+.desktop-2 .iconsax {
+    height: 71px;
+    width: 71px;
+}
+
+.iconsax-linearinstagram {
+    margin-bottom: 1px;
+}
+
+.overlap-group-container {
+    align-items: flex-start;
+    display: flex;
+    gap: 83px;
+    height: 366рх;
+    margin-right: 19px;
+    margin-top: 55px;
+    min-width: 1223px;
+}
+
+.empresa {
+    height: 44px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 16px;
+    margin-top: 8px;
+    min-width: 148px;
+}
+
+.overlap-group {
+    /* align-items: flex-start; */
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    height: 45px;
+    margin-top: 47px;
+    min-width: 102px;
+    padding-left: 20px;
+}
+
+.en-esta-seccin-podr {
+    height: 116px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 25px;
+    text-align: center;
+    width: 482;
+}
+
+.persona {
+    height: 44px;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-left: 15px;
+    margin-top: 8px;
+    min-width: 139px;
+}
